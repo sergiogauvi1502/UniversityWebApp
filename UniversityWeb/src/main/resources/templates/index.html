@@ -1,0 +1,37 @@
+<!--<meta charset="ISO-8859-1">-->
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+
+    <link th: href="@{css/bootstrap.min.css}" rel="stylesheet"/>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <label class="navbar-brand">Campus Virtual</label>
+    </nav>
+
+    <h1>Bienvenidos</h1>
+    <h4>Acceder al Campus</h4>
+
+    <div class="col-sm-6">
+        <form>
+            <div>
+                <label>Usuario</label>
+                <div>
+                    <input type="text">
+                </div>
+            </div>
+            <div>
+                <label>Contraseña</label>
+                <div>
+                    <input type="text">
+                </div>
+            </div>
+        </form>
+        <button class="btn btn-primary" role="button" type="submit">Ingresar</button>
+    </div>
+</body>
+</html>
